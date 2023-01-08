@@ -98,10 +98,17 @@
             }
         }
 
-        select {
-            width: 335px;
+        .city_select {
+            width: 559px;
             height: 31px;
+
+            select {
+                width: 335px;
+                height: 31px;
+            }
         }
+
+
     }
 
     .form_bar {

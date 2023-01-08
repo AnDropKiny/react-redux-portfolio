@@ -1,18 +1,16 @@
-import { useState, useEffect, createContext } from 'react';
+import { useState, useEffect } from 'react';
 import { useHttp } from '../../hooks/http.hook';
-import { useFormik } from 'formik';
-import * as Yup from 'yup'
-import Form from '../form/form'
-import CreateContext from './FormikContext';
+import Form from '../form/Form'
 
-import './statusForm.scss';
+import './status.scss';
 
 
 
-const StatusForm = () => {
+const Status = () => {
     console.log("render")
     const { request } = useHttp();
     const [data, setData] = useState([]);
+    const [city, setCity] = useState("");
 
     const getData = () => {
         request('http://localhost:3001/cities')
@@ -46,34 +44,6 @@ const StatusForm = () => {
 
     const filteredCities = sortedArr(data).map((value, id) => value.population > 50000 ? <option key={id} value={value.city}>{value.city}</option> : null)
 
-    // const formik = useFormik({
-    //     initialValues: {
-    //         city: '',
-    //         password: '',
-    //         confirm: '',
-    //         email: '',
-    //         terms: false
-    //     },
-    //     validationSchema: Yup.object({
-    //         city: Yup.string().required('Выберете город'),
-    //         password: Yup
-    //             .string()
-    //             .required('Введите пароль')
-    //             .min(5, 'Используйте не менее 5 символов'),
-    //         confirm: Yup
-    //             .string()
-    //             .oneOf([Yup.ref('password'), null], 'Пароли не совпадают'),
-    //         email: Yup.string().email('Неверный E-mail').required('Укажите E-mail')
-    //     }),
-    //     onSubmit: (values, { resetForm }) => {
-    //         console.log(JSON.stringify(values, null, 2))
-    //         resetForm();
-    //     }
-    // })
-    // const context = createContext(formik)
-
-    const { formik, formikContext } = CreateContext();
-
 
     return (
         <div className="content">
@@ -90,29 +60,25 @@ const StatusForm = () => {
                     </div>
                     <div className='rectangle'>  </div>
                 </div>
-                <form className='city_select'>
+                <div className='city_select'>
                     <label htmlFor="city">Ваш город</label>
                     <select
                         name="city"
                         id="city"
-                        value={formik.values.city}
-                        onChange={formik.handleChange}
-                        onBlur={formik.handleBlur}>
+                        onChange={(e) => setCity(e.target.value)} >
 
 
                         {filteredCities}
 
-                    </select></form>
+                    </select>
+                </div>
 
             </div>
             <div className='form_bar'>
-                <formikContext.Provider value={formik}>
-                    <Form />
-                </formikContext.Provider>
-
+                <Form data={city} />
             </div>
         </div>
 
     )
 }
-export default StatusForm;
+export default Status;

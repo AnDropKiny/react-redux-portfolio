@@ -1,5 +1,5 @@
 import React from 'react';
-import StatusForm from '../status/statusForm';
+import Status from '../status/Status';
 import './app.scss';
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
 
     return (
         <main className="app">
-            <StatusForm />
+            <Status />
         </main>
     )
 }
