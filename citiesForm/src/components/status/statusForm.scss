@@ -1,0 +1,111 @@
+.content {
+    display: flex;
+    background: white;
+    height: 758px;
+    width: 1169px;
+    margin: 0 auto;
+    padding-top: 50px;
+    align-items: center;
+    flex-direction: column;
+
+    label {
+        font-size: 21px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    hr {
+        width: 990px;
+    }
+
+    .header {
+        display: flex;
+        width: 988px;
+        height: 209px;
+        flex-direction: column;
+
+        >div {
+            height: 80px;
+            width: 735px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 30px;
+            line-height: 34px;
+
+            color: #666666;
+
+            span {
+                color: #000000;
+            }
+
+        }
+
+        a {
+            display: block;
+            text-decoration-style: dotted;
+        }
+
+        .status_bar {
+            display: flex;
+            align-items: flex-end;
+            width: 503px;
+            height: 53px;
+            left: 324px;
+            top: 128px;
+
+            .rectangle {
+
+
+                position: absolute;
+                width: 11px;
+                height: 11px;
+                top: 125px;
+                left: 490px;
+                background: #EAEAEA;
+                transform: rotate(45deg);
+
+            }
+
+            .bar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #EAEAEA;
+                width: 503px;
+                height: 46px;
+                left: 324px;
+                top: 135px;
+
+                .text_bar {
+                    width: 480px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #404040;
+                    display: none;
+                }
+
+                input {
+                    width: 480px;
+                    height: 15px;
+                    border: none;
+                    display: block;
+                    background: #dbdbdb
+                }
+            }
+        }
+
+        select {
+            width: 335px;
+            height: 31px;
+        }
+    }
+
+    .form_bar {
+        width: 988px;
+        height: 420px;
+    }
+}
