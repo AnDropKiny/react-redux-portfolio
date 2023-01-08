@@ -4,13 +4,13 @@ import Form from '../form/Form'
 
 import './status.scss';
 
-
-
 const Status = () => {
     console.log("render")
     const { request } = useHttp();
     const [data, setData] = useState([]);
-    const [city, setCity] = useState("");
+    const [city, setCity] = useState("Красноярск");
+    const [status, setStatus] = useState(false);
+    const [textStatus, setNewStatus] = useState("Прежде чем действовать, надо понять");
 
     const getData = () => {
         request('http://localhost:3001/cities')
@@ -42,6 +42,11 @@ const Status = () => {
         return [...data.splice(maxElem, 1), ...data];
     };
 
+    const changeStatus = () => {
+        setStatus(false)
+        setNewStatus(document.getElementById("status").value);
+    }
+
     const filteredCities = sortedArr(data).map((value, id) => value.population > 50000 ? <option key={id} value={value.city}>{value.city}</option> : null)
 
 
@@ -50,13 +55,13 @@ const Status = () => {
             <div className='header'>
                 <div>
                     <h1>Здравствуйте, <span>Человек №3596941</span></h1>
-                    <a href="">Сменить статус</a>
+                    {!status ? <a onClick={() => setStatus(true)}>Сменить статус</a> : <a onClick={() => changeStatus()}>Сохранить</a>}
+
                 </div>
 
                 <div className='status_bar'>
                     <div className='bar'>
-                        <input type="text" />
-                        <span className='text_bar'>Прежде чем действовать, надо понять</span>
+                        {!status ? <span className='text_bar'>{textStatus}</span> : <input id='status' type="text" />}
                     </div>
                     <div className='rectangle'>  </div>
                 </div>
@@ -65,20 +70,18 @@ const Status = () => {
                     <select
                         name="city"
                         id="city"
-                        onChange={(e) => setCity(e.target.value)} >
-
-
+                        onChange={(e) => setCity(e.target.value)}>
                         {filteredCities}
-
                     </select>
                 </div>
 
-            </div>
+            </div >
             <div className='form_bar'>
                 <Form data={city} />
             </div>
-        </div>
+        </div >
 
     )
 }
+
 export default Status;

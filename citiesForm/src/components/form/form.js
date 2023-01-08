@@ -6,13 +6,6 @@ import './form.scss'
 
 
 const Form = ({ data }) => {
-    // const { formikContext } = CreateContext();
-
-    // console.log(data)
-
-    // const formik = useContext(formikContext)
-    // formik.values.city = data;
-
     const formik = useFormik({
         initialValues: {
             city: data,
