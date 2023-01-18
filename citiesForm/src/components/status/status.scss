@@ -13,6 +13,7 @@
     }
 
     label {
+        width: 188px;
         font-size: 21px;
         line-height: 19px;
         color: #000000;
@@ -25,17 +26,19 @@
     .header {
         display: flex;
         width: 988px;
-        height: 209px;
+        height: 200px;
         flex-direction: column;
+        justify-content: flex-end;
 
         >div {
-            height: 80px;
+            height: 34px;
             width: 735px;
             display: flex;
             justify-content: space-between;
             align-items: center;
 
             a {
+                cursor: pointer;
                 display: block;
                 color: blue;
                 text-decoration: underline;
@@ -45,8 +48,6 @@
 
         h1 {
             font-size: 30px;
-            line-height: 34px;
-
             color: #666666;
 
             span {
@@ -62,8 +63,7 @@
             align-items: flex-end;
             width: 503px;
             height: 53px;
-            left: 324px;
-            top: 128px;
+            margin-left: 215px;
 
             .rectangle {
 
@@ -71,8 +71,9 @@
                 position: absolute;
                 width: 11px;
                 height: 11px;
-                top: 125px;
-                left: 490px;
+                top: 120px;
+                left: auto;
+                margin-left: 19px;
                 background: #EAEAEA;
                 transform: rotate(45deg);
 
@@ -85,8 +86,6 @@
                 background: #EAEAEA;
                 width: 503px;
                 height: 46px;
-                left: 324px;
-                top: 135px;
 
                 .text_bar {
                     width: 480px;
@@ -107,8 +106,9 @@
         }
 
         .city_select {
-            width: 559px;
+            width: 550px;
             height: 31px;
+            margin: 24px 0px;
 
             select {
                 width: 335px;

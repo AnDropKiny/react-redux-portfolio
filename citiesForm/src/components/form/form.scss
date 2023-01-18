@@ -6,4 +6,94 @@ form {
         width: 327px;
         height: 25px;
     }
+
+
+
+    .input_container {
+        width: 932px;
+        margin: 20px 0px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >div {
+            height: 30px;
+        }
+
+        .error {
+
+            width: 89px;
+            height: 20px;
+            font-size: 12px;
+            line-height: 20px;
+            color: #FF0000;
+
+
+        }
+
+
+
+
+    }
+
+    .input_container_checkbox {
+        width: 578px;
+        margin: 20px 0px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            width: 12px;
+            height: 12px;
+            border-radius: 0px;
+            border: 1px solid #7E7E7E;
+
+            &:checked {
+                background-color: #ffffff;
+
+            }
+        }
+    }
+
+    .info_hint {
+        width: 355px;
+        height: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+    }
+
+    .submit_box {
+        height: 40px;
+        width: 480px;
+        margin-left: 215px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+
+            width: 119px;
+            height: 40px;
+            background: #71C838;
+            box-shadow: 0px 1px 0px #539D22;
+            font-size: 18px;
+            color: #FFFFFF;
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                background: #67b137;
+                box-shadow: 0px 1px 5px #539D22;
+            }
+
+            &:active {
+                background: rgb(12, 73, 43);
+            }
+        }
+    }
 }
