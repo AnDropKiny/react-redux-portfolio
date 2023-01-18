@@ -1,96 +1,94 @@
-{
-    "cities": [
-        {
-            "city": "Умань",
-            "population": "89854"
-        },
-        {
-            "city": "Вознесенск",
-            "population": "36192"
-        },
-        {
-            "city": "Славута",
-            "population": "35892"
-        },
-        {
-            "city": "Обухов",
-            "population": "33180"
-        },
-        {
-            "city": "Доброполье",
-            "population": "30884"
-        },
-        {
-            "city": "Хуст",
-            "population": "28600"
-        },
-        {
-            "city": "Вышгород",
-            "population": "26866"
-        },
-        {
-            "city": "Бахчисарай",
-            "population": "36651"
-        },
-        {
-            "city": "Кагарлык",
-            "population": "13730"
-        },
-        {
-            "city": "Счастье",
-            "population": "12290"
-        },
-        {
-            "city": "Борщёв",
-            "population": "11202"
-        },
-        {
-            "city": "Глобино",
-            "population": "9980"
-        },
-        {
-            "city": "Остер",
-            "population": "6298"
-        },
-        {
-            "city": "Бобрка",
-            "population": "3849"
-        },
-        {
-            "city": "Киев",
-            "population": "2868702"
-        },
-        {
-            "city": "Харьков",
-            "population": "1451132"
-        },
-        {
-            "city": "Одесса",
-            "population": "1017022"
-        },
-        {
-            "city": "Днепр",
-            "population": "1001094"
-        },
-        {
-            "city": "Херсон",
-            "population": "297593"
-        },
-        {
-            "city": "Полтава",
-            "population": "295523"
-        },
-        {
-            "city": "Чернигов",
-            "population": "285493"
-        },
-        {
-            "city": "Ужгород",
-            "population": "115968"
-        },
-        {
-            "city": "Бровары",
-            "population": "98874"
-        }
-    ]
-}
+[
+    {
+        "city": "Умань",
+        "population": "89854"
+    },
+    {
+        "city": "Вознесенск",
+        "population": "36192"
+    },
+    {
+        "city": "Славута",
+        "population": "35892"
+    },
+    {
+        "city": "Обухов",
+        "population": "33180"
+    },
+    {
+        "city": "Доброполье",
+        "population": "30884"
+    },
+    {
+        "city": "Хуст",
+        "population": "28600"
+    },
+    {
+        "city": "Вышгород",
+        "population": "26866"
+    },
+    {
+        "city": "Бахчисарай",
+        "population": "36651"
+    },
+    {
+        "city": "Кагарлык",
+        "population": "13730"
+    },
+    {
+        "city": "Счастье",
+        "population": "12290"
+    },
+    {
+        "city": "Борщёв",
+        "population": "11202"
+    },
+    {
+        "city": "Глобино",
+        "population": "9980"
+    },
+    {
+        "city": "Остер",
+        "population": "6298"
+    },
+    {
+        "city": "Бобрка",
+        "population": "3849"
+    },
+    {
+        "city": "Киев",
+        "population": "2868702"
+    },
+    {
+        "city": "Харьков",
+        "population": "1451132"
+    },
+    {
+        "city": "Одесса",
+        "population": "1017022"
+    },
+    {
+        "city": "Днепр",
+        "population": "1001094"
+    },
+    {
+        "city": "Херсон",
+        "population": "297593"
+    },
+    {
+        "city": "Полтава",
+        "population": "295523"
+    },
+    {
+        "city": "Чернигов",
+        "population": "285493"
+    },
+    {
+        "city": "Ужгород",
+        "population": "115968"
+    },
+    {
+        "city": "Бровары",
+        "population": "98874"
+    }
+]
