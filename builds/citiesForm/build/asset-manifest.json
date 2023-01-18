@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-redux-portfolio/builds/citiesForm/static/css/main.12a218fd.css",
+    "main.js": "/react-redux-portfolio/builds/citiesForm/static/js/main.769535fc.js",
+    "index.html": "/react-redux-portfolio/builds/citiesForm/index.html",
+    "main.12a218fd.css.map": "/react-redux-portfolio/builds/citiesForm/static/css/main.12a218fd.css.map",
+    "main.769535fc.js.map": "/react-redux-portfolio/builds/citiesForm/static/js/main.769535fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12a218fd.css",
+    "static/js/main.769535fc.js"
+  ]
+}
