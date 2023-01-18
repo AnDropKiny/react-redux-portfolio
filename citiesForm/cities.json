@@ -1,96 +1,96 @@
 {
     "cities": [
         {
-            "city": "Артёмовск",
-            "population": "1688"
+            "city": "Умань",
+            "population": "89854"
         },
         {
-            "city": "Ачинск",
-            "population": "105259"
+            "city": "Вознесенск",
+            "population": "36192"
         },
         {
-            "city": "Боготол",
-            "population": "19819"
+            "city": "Славута",
+            "population": "35892"
         },
         {
-            "city": "Бородино",
-            "population": "16061"
+            "city": "Обухов",
+            "population": "33180"
         },
         {
-            "city": "Дивногорск",
-            "population": "29195"
+            "city": "Доброполье",
+            "population": "30884"
         },
         {
-            "city": "Дудинка",
-            "population": "21015"
+            "city": "Хуст",
+            "population": "28600"
         },
         {
-            "city": "Енисейск",
-            "population": "17805"
+            "city": "Вышгород",
+            "population": "26866"
         },
         {
-            "city": "Железногорск",
-            "population": "83857"
+            "city": "Бахчисарай",
+            "population": "36651"
         },
         {
-            "city": "Заозёрный",
-            "population": "10286"
+            "city": "Кагарлык",
+            "population": "13730"
         },
         {
-            "city": "Зеленогорск",
-            "population": "61915"
+            "city": "Счастье",
+            "population": "12290"
         },
         {
-            "city": "Игарка",
-            "population": "4417"
+            "city": "Борщёв",
+            "population": "11202"
         },
         {
-            "city": "Иланский",
-            "population": "14967"
+            "city": "Глобино",
+            "population": "9980"
         },
         {
-            "city": "Канск",
-            "population": "89111"
+            "city": "Остер",
+            "population": "6298"
         },
         {
-            "city": "Кодинск",
-            "population": "15911"
+            "city": "Бобрка",
+            "population": "3849"
         },
         {
-            "city": "Красноярск",
-            "population": "1095286"
+            "city": "Киев",
+            "population": "2868702"
         },
         {
-            "city": "Лесосибирск",
-            "population": "59525"
+            "city": "Харьков",
+            "population": "1451132"
         },
         {
-            "city": "Минусинск",
-            "population": "68007"
+            "city": "Одесса",
+            "population": "1017022"
         },
         {
-            "city": "Назарово",
-            "population": "49825"
+            "city": "Днепр",
+            "population": "1001094"
         },
         {
-            "city": "Норильск",
-            "population": "179554"
+            "city": "Херсон",
+            "population": "297593"
         },
         {
-            "city": "Сосновоборск",
-            "population": "40614"
+            "city": "Полтава",
+            "population": "295523"
         },
         {
-            "city": "Ужур",
-            "population": "15563"
+            "city": "Чернигов",
+            "population": "285493"
         },
         {
-            "city": "Уяр",
-            "population": "11981"
+            "city": "Ужгород",
+            "population": "115968"
         },
         {
-            "city": "Шарыпово",
-            "population": "37136"
+            "city": "Бровары",
+            "population": "98874"
         }
     ]
 }
