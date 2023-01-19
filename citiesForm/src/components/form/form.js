@@ -45,6 +45,7 @@ const Form = ({ data }) => {
             email: Yup.string().email('Неверный E-mail').required('Укажите E-mail')
         }),
         onSubmit: (values, { resetForm }) => {
+            alert('Данные отправлены в консоль')
             console.log(JSON.stringify(values, null, 2))
             resetForm();
             setState(true);

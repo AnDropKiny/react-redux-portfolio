@@ -14,6 +14,7 @@ const Status = () => {
 
     const getData = () => {
         request('http://localhost:3001/cities')
+            // request('https://geniejsexy.github.io/react-redux-portfolio/builds/citiesForm/cities.json')
             .then(setData)
             .catch(error => console.log(error))
     }
