@@ -1,6 +1,6 @@
 import AppHeader from "../appHeader/AppHeader";
 import ErrorBoundery from "../errorBoundary/ErrorBoundery";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Spinner from "../spinner/Spinner";
 
@@ -14,7 +14,7 @@ const SingleComicPage = lazy(() => import("../pages/singleComicLayout/SingleComi
 const App = () => {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="app">
                 <AppHeader />
                 <main>
@@ -62,7 +62,7 @@ const App = () => {
 
                 </main>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     )
 
 }
