@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/react-redux-portfolio/builds/citiesForm/static/css/main.12a218fd.css",
-    "main.js": "/react-redux-portfolio/builds/citiesForm/static/js/main.f072208d.js",
-    "index.html": "/react-redux-portfolio/builds/citiesForm/index.html",
-    "main.12a218fd.css.map": "/react-redux-portfolio/builds/citiesForm/static/css/main.12a218fd.css.map",
-    "main.f072208d.js.map": "/react-redux-portfolio/builds/citiesForm/static/js/main.f072208d.js.map"
+    "main.css": "/react-redux-portfolio/builds/Coffee-Site/static/css/main.443cfbfc.css",
+    "main.js": "/react-redux-portfolio/builds/Coffee-Site/static/js/main.dc8c2567.js",
+    "static/media/bestBG.jpg": "/react-redux-portfolio/builds/Coffee-Site/static/media/bestBG.747b98cfcb22336e2b04.jpg",
+    "static/media/bg.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/bg.6efbcb674b7d1939c16e.png",
+    "static/media/ForPleasureLogo.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/ForPleasureLogo.ebb414eb116c561181ad.png",
+    "static/media/headerOurCoffee.jpg": "/react-redux-portfolio/builds/Coffee-Site/static/media/headerOurCoffee.e8094fc787f35d4856eb.jpg",
+    "static/media/aboutCoffeeItem.jpg": "/react-redux-portfolio/builds/Coffee-Site/static/media/aboutCoffeeItem.076b91071513669e8698.jpg",
+    "static/media/CoffeeLogo.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/CoffeeLogo.1c80c85e6e592e797fe8.png",
+    "static/media/girl.jpg": "/react-redux-portfolio/builds/Coffee-Site/static/media/girl.7495420333689d066d26.jpg",
+    "static/media/aromistico.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/aromistico.abb45c1ba257a5364ef1.png",
+    "static/media/salimo.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/salimo.25d5ad4a54bdd9afbde4.png",
+    "static/media/presto.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/presto.7d9f028b14b6f1708735.png",
+    "static/media/coffee-beans.svg": "/react-redux-portfolio/builds/Coffee-Site/static/media/coffee-beans.3441d5189913b555f3c8.svg",
+    "static/media/beans-black.svg": "/react-redux-portfolio/builds/Coffee-Site/static/media/beans-black.d70833a7ca219ddc164a.svg",
+    "static/media/beans-logo.svg": "/react-redux-portfolio/builds/Coffee-Site/static/media/beans-logo.d8ad06a77a7f633d0c2a.svg",
+    "static/media/BeansLogoBlack.svg": "/react-redux-portfolio/builds/Coffee-Site/static/media/BeansLogoBlack.023b976cf584c92cb61a.svg",
+    "index.html": "/react-redux-portfolio/builds/Coffee-Site/index.html",
+    "main.443cfbfc.css.map": "/react-redux-portfolio/builds/Coffee-Site/static/css/main.443cfbfc.css.map",
+    "main.dc8c2567.js.map": "/react-redux-portfolio/builds/Coffee-Site/static/js/main.dc8c2567.js.map"
   },
   "entrypoints": [
-    "static/css/main.12a218fd.css",
-    "static/js/main.f072208d.js"
+    "static/css/main.443cfbfc.css",
+    "static/js/main.dc8c2567.js"
   ]
 }
