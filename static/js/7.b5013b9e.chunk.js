@@ -1,2 +1,0 @@
-(this.webpackJsonpmarvel=this.webpackJsonpmarvel||[]).push([[7],{211:function(c,e,s){"use strict";s.r(e);var i=s(3);e.default=function(c){var e=c.data;console.log(e);var s=e.name,a=e.description,n=e.thumbnail;return Object(i.jsxs)(i.Fragment,{children:[Object(i.jsx)("img",{src:n,alt:s,className:"single-comic__img"}),Object(i.jsxs)("div",{className:"single-comic__info",children:[Object(i.jsx)("h2",{className:"single-comic__name",children:s}),Object(i.jsx)("p",{className:"single-comic__descr",children:a})]})]})}}}]);
-//# sourceMappingURL=7.b5013b9e.chunk.js.map
