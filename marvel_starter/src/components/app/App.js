@@ -14,7 +14,7 @@ const SingleComicPage = lazy(() => import("../pages/singleComicLayout/SingleComi
 const App = () => {
 
     return (
-        <HashRouter>
+        <BrowserRouter>
             <div className="app">
                 <AppHeader />
                 <main>
@@ -62,7 +62,7 @@ const App = () => {
 
                 </main>
             </div>
-        </HashRouter>
+        </BrowserRouter>
     )
 
 }
