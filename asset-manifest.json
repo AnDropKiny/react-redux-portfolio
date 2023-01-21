@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-redux-portfolio/builds/Coffee-Site/static/css/main.443cfbfc.css",
-    "main.js": "/react-redux-portfolio/builds/Coffee-Site/static/js/main.dc8c2567.js",
+    "main.js": "/react-redux-portfolio/builds/Coffee-Site/static/js/main.881a2a67.js",
     "static/media/bestBG.jpg": "/react-redux-portfolio/builds/Coffee-Site/static/media/bestBG.747b98cfcb22336e2b04.jpg",
     "static/media/bg.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/bg.6efbcb674b7d1939c16e.png",
     "static/media/ForPleasureLogo.png": "/react-redux-portfolio/builds/Coffee-Site/static/media/ForPleasureLogo.ebb414eb116c561181ad.png",
@@ -18,10 +18,10 @@
     "static/media/BeansLogoBlack.svg": "/react-redux-portfolio/builds/Coffee-Site/static/media/BeansLogoBlack.023b976cf584c92cb61a.svg",
     "index.html": "/react-redux-portfolio/builds/Coffee-Site/index.html",
     "main.443cfbfc.css.map": "/react-redux-portfolio/builds/Coffee-Site/static/css/main.443cfbfc.css.map",
-    "main.dc8c2567.js.map": "/react-redux-portfolio/builds/Coffee-Site/static/js/main.dc8c2567.js.map"
+    "main.881a2a67.js.map": "/react-redux-portfolio/builds/Coffee-Site/static/js/main.881a2a67.js.map"
   },
   "entrypoints": [
     "static/css/main.443cfbfc.css",
-    "static/js/main.dc8c2567.js"
+    "static/js/main.881a2a67.js"
   ]
 }
