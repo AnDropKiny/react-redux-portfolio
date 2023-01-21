@@ -96,6 +96,10 @@ class App extends Component {
                     data={showItems(visibleData, true)}
 
                 />} />
+                <Route path="/main" element={<MainPage
+                    data={showItems(visibleData, true)}
+
+                />} />
                 <Route path="/aboutcoffee" element={
                     <CoffeePage
                         data={showItems(visibleData)}

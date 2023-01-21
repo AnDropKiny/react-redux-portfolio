@@ -13,12 +13,17 @@ export default class MainPage extends Component {
             <div className='header'>
                 <div className="header-btns">
                     <div className='logo'>
-                        <a href='/' className='coffee-house main-link'>Coffee house</a>
+                        <Link to='/main' className="coffee-house main-link">Coffee house</Link>
+                        {/* <a href='/' className='coffee-house main-link'>Coffee house</a> */}
                     </div>
                     <div className='our-coffee'>
-                        <a href='/aboutcoffee' className='main-link'>Our coffee</a></div>
+                        <Link to='/aboutcoffee' className="main-link">Our coffee</Link>
+                        {/* <a href='/aboutcoffee' className='main-link'>Our coffee</a> */}
+                    </div>
                     <div className='fyp'>
-                        <a href='/forpleasurepage' className='main-link'>For your pleasure</a></div>
+                        <Link to='/forpleasurepage' className="main-link">For your pleasure</Link>
+                        {/* <a href='/forpleasurepage' className='main-link'>For your pleasure</a> */}
+                    </div>
                 </div>
                 <div className='header-text'>
                     <h1 className='header-text-title'>Everything You Love About Coffee</h1>
@@ -69,11 +74,15 @@ export default class MainPage extends Component {
         return (
             <div className='footer'>
                 <div className="footer-btns">
-                    <Link to='/' className='coffee-house-black main-link-black'>Coffee house</Link>
+                    <Link to='/main' className='coffee-house-black main-link-black'>Coffee house</Link>
                     <div className='our-coffee-black'>
-                        <a href='/aboutcoffee' className='main-link-black'>Our coffee</a></div>
+                        <Link to='/aboutcoffee' className='main-link-black'>Our coffee</Link>
+                        {/* <a href='/aboutcoffee' className='main-link-black'>Our coffee</a> */}
+                    </div>
                     <div className='fyp-black'>
-                        <a href='/forpleasurepage' className='main-link-black'>For your pleasure</a></div>
+                        <Link to='/forpleasurepage' className='main-link-black'>For your pleasure</Link>
+                        {/* <a href='/forpleasurepage' className='main-link-black'>For your pleasure</a> */}
+                    </div>
                 </div>
                 <i className='beans-black-logo'></i>
 

@@ -1,5 +1,6 @@
 import { Component } from "react";
 import MainPage from "../MainPage/MainPage";
+import { Link } from "react-router-dom";
 
 import './CoffeePage.css'
 
@@ -56,12 +57,17 @@ export default class CoffeePage extends Component {
             <div className='coffee-header'>
                 <div className="header-btns">
                     <div className='logo'>
-                        <a href='/' className='coffee-house main-link'>Coffee house</a>
+                        <Link to='/main' className='coffee-house main-link'>Coffee house</Link>
+                        {/* <a href='/' className='coffee-house main-link'>Coffee house</a> */}
                     </div>
                     <div className='our-coffee'>
-                        <a href='/aboutcoffee' className='main-link'>Our coffee</a></div>
+                        <Link to='/aboutcoffee' className='main-link'>Our coffee</Link>
+                        {/* <a href='/aboutcoffee' className='main-link'>Our coffee</a> */}
+                    </div>
                     <div className='fyp'>
-                        <a href='/forpleasurepage' className='main-link'>For your pleasure</a></div>
+                        <Link to='/forpleasurepage' className='main-link'>For your pleasure</Link>
+                        {/* <a href='/forpleasurepage' className='main-link'>For your pleasure</a> */}
+                    </div>
 
                 </div>
                 <h1>{title}</h1>
